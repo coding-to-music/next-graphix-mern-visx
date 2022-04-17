@@ -14,6 +14,12 @@ by Owen King https://github.com/OwnKng
 
 https://github.com/OwnKng/next-graphix
 
+https://next-graphix-git-main-ownkng.vercel.app
+
+https://graphix-viz.vercel.app
+
+https://ownkng.dev/thoughts/graphix
+
 # GRAPHIX
 
 The source code for the [GRAPHIX](https://graphix-viz.vercel.app/).
@@ -42,6 +48,8 @@ heroku create next-graphix-mern-visx
 
 ```java
 heroku config:set
+
+heroku config:set NEXT_PUBLIC_API_HOST="https://next-graphix-mern-visx.herokuapp.com"
 
 heroku config:set MONGODB_URI="mongodb+srv://<userid>:<password>@cluster0.zadqe.mongodb.net/next-graphix-mern-visx?retryWrites=true&w=majority"
 heroku config:set PASSWORD="something-secret"
