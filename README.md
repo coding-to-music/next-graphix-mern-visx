@@ -10,9 +10,9 @@ https://github.com/coding-to-music/next-graphix-mern-visx
 
 https://next-graphix-mern-visx.herokuapp.com
 
-by MrsKamran https://github.com/MrsKamran
+by Owen King https://github.com/OwnKng
 
-https://github.com/MrsKamran/habit-tracker
+https://github.com/OwnKng/next-graphix
 
 # GRAPHIX
 
