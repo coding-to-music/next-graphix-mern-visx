@@ -1,15 +1,15 @@
-import mongoose from 'mongoose'
+import mongoose from "mongoose";
 
 export const connectToDB = async () => {
   if (mongoose.connection.readyState >= 1) {
-    return {}
+    return {};
   }
 
-  return mongoose.connect(process.env.DATABASE_URL, {
+  return mongoose.connect(process.env.MONGODB_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     bufferMaxEntries: 0,
     connectTimeoutMS: 10000,
     useFindAndModify: false,
-  })
-}
+  });
+};
