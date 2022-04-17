@@ -1,11 +1,18 @@
 {
-  "name": "graphix-data-viz",
+  "name": "next-graphix-mern-visx",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "16.x"
+  },
+  "cacheDirectories": [
+    "node_modules"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "git add . && git commit -m Heroku && git push && git push heroku && heroku logs --tail --remote heroku"
   },
   "dependencies": {
     "@types/styled-components": "^5.1.7",
